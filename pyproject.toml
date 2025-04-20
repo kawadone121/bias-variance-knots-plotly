@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bias-variance-knots-plotly"
+version = "0.1.0"
+description = ""
+authors = ["kawadone121 <ryoto.kawahara@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+numpy = "^2.2.5"
+plotly = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
